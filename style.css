@@ -1,0 +1,274 @@
+*{
+    padding: 0;
+   margin: 0;
+ font-family: sans-serif;
+<!-- to delet point -->
+}
+.container{
+    background: black;
+    min-height: 100vh;
+    width: 100%;
+
+    position: relative;
+<!-- full secren -->
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    align-items: center; <!-- when make all contact of bar in one row  with image and then in midle  -->
+<!-- to make space betweeen images and bar  -->
+}
+.logo{
+    width: 40px;
+
+}
+ul li{
+    display: inline-block;
+    list-style: none;
+<!-- to make bar contact in one row and remove black point -->
+<!-- to remove black point manulay -->
+}
+ul li a {
+    color: #fff;
+
+    text-decoration: none;
+    margin: 0 10px; <!-- to make margen 0 form up and down and 10px form anther side -->
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+
+}
+.content .text{
+    width: 40%; <!-- To make gap between photo and text by useing 40% of text div -->
+
+}
+.container .text h2{
+    font-size: 40px;
+    text-transform: uppercase;
+    color: white;
+
+}
+.container .text p{
+font-size: 18px;
+    margin: 20px 0;
+    color: white;
+
+}
+.container .text a{
+    text-decoration: none;
+    background: white;
+    color: black;
+    padding: 8px 15px;
+    border-radius: 20px;
+}
+.content .imaage{
+    width: 30%;
+}
+.content .imaage img{
+    width: 180px;
+}
+.icon{
+    position: absolute;
+
+    margin-bottom: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    bottom: 20px;
+
+}
+.icon img {
+    width: 40px;
+    margin-bottom: -10px;
+}
+.icon img:hover{
+transform:scale(1.2);
+    transition: 0.5s;
+    cursor: pointer;
+    <!-- to make it big than 1.2 when mouse go up it -->
+}
+.info{
+    display: flex;
+    align-items: center;
+}
+.About{
+    background: black;
+height: 750px;
+
+
+}
+
+ .titleabout h1{
+
+    margin-left: 50%;
+
+    left: 50%;
+    color: white;
+    margin-bottom: 50px;
+transform: translateX(-10%) ;
+
+
+}
+.About .info p{
+    width: 50%;
+    margin-top: 100px;
+    font-size: x-large;
+    color: white;
+    margin-left: 120px;
+    font-family:"Adobe Caslon Pro";
+    margin-bottom: 200px;
+}
+.About .info img{
+   width: 600px;
+margin-bottom: 100px;
+}
+.info .morrein {
+
+    text-decoration: none;
+    background: white;
+    color: black;
+    font-size: large;
+    padding-top: 5px;
+    padding-right:  5px;
+    padding-left:  5px;
+    border-radius: 20px;
+
+
+}
+
+.Form h1{
+   margin-left: 50%;
+    transform: translateX(-20%);
+    margin-bottom: 100px;
+    margin-top: 100px;
+    color: white;
+}
+.Table{
+    width: 100%;
+    display: flex;
+    margin-left: 50%;
+    transform: translateX(-20%);
+
+
+
+}
+.Table .td11 {
+    margin-bottom: 100px;
+    margin-right: 50px;
+    border-radius: 20px;
+}
+.Table .td12 {
+    margin-bottom: 100px;
+    border-radius: 20px;
+}
+.Table .td21 {
+    margin-bottom: 100px;
+    border-radius: 20px;
+
+}
+.Table .td22 {
+    margin-bottom: 100px;
+    margin-right: 50px;
+    border-radius: 20px;
+    width: 200px;
+
+}
+.Table .td31 {
+    margin-bottom: 100px;
+
+}
+.Table .td32 {
+    margin-bottom: 100px;
+    margin-right: 50px;
+
+}
+.Table .m32 {
+
+margin-right: 10px;
+
+}
+.Table .submit{
+    border-radius: 20px;
+    margin-top: 30px;
+    width: 100px;
+    margin-left: 200px;
+}
+.Table .email{
+    margin-bottom: 100px;
+    border-radius: 20px;
+
+
+}
+.Table .emailus{
+    color: blue;
+    text-decoration: none;
+
+}
+
+.product1 .photo{
+float: left;
+    margin: 5px 5px 100px 200px;
+
+
+}
+.product1 .photo h1{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+
+}
+.product1 h2{
+    margin-left: 50%;
+    transform: translateX(-20%);
+    font-size: xx-large;
+
+    margin-bottom: 20px;
+    margin-top: 30px;
+
+}
+.product1 .photo:hover{
+
+    transform:scale(1.2);
+    transition: 0.3s;
+    cursor: pointer;
+<!-- to make it big than 1.2 when mouse go up it -->
+
+}
+
+.product2 .photo1{
+    float: left;
+    margin: 5px 5px 100px 250px;
+
+
+}
+.product2 .photo1 h1{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+
+}
+.product2 h2{
+    float: left;
+    margin-left: 50%;
+    transform: translateX(-10%);
+    font-size: xx-large;
+    margin-bottom: 50px;
+    margin-top: 10px;
+    width: 100%;
+
+}
+.product2 .photo1:hover{
+
+    transform:scale(1.2);
+    transition: 0.3s;
+    cursor: pointer;
+
+
+}
